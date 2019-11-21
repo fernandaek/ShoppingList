@@ -49,7 +49,7 @@ class ShoppingList extends Component {
             <div className="todoListMain">
                 <div className="header">
                     <form onSubmit={this.AddItem}>
-                        <input type ref={(a) => this._inputElement = a} placeholder="Enter your shooping list"></input>
+                        <input ref={(a) => this._inputElement = a} placeholder="Enter your shooping list"></input>
                         <button type="submit">Add</button>
                     </form>
                 </div>

@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import ShoppingList from './Components/ShoppingList';
+import "./Style/ShoppingList.css"
 
 var destination = document.querySelector("#root")
 
 ReactDOM.render(
-    <div style={{margin: "auto", marginTop: "10px"}}>
+    <div className="container">
         <ShoppingList />
     </div>, destination
 );

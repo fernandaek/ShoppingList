@@ -1,4 +1,9 @@
-
+.container{
+    margin: auto;
+    margin-top: 10%;
+    padding: 20px;
+    box-shadow: -1px -9px 29px 0px rgba(0,0,0,0.44);
+}
 .todoListMain .header input {
     padding: 10px;
     font-size: 15px;
